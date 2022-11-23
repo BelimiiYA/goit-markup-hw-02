@@ -1,0 +1,81 @@
+/* колір головного тексту #757575 */
+/* другорядний колір тексту #212121 */
+/* колір background хедера #FFFFFF*/
+/* колір background героя #2F303A */
+/* колір background класу переваг і занять #F5F5F5*/
+/* колір background класу працівники #F5F4FA */
+/* колір background футера #2F303A*/
+/* акцент #2196F3*/
+:root {
+    --brand-color: #757575;
+}
+body {
+    font-family: 'Roboto', raleway;
+    background-color: #f5f5f5;
+    color: var(--brand-color);
+}
+.site-nav-list .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #212121;
+    text-decoration: none;
+}
+.social-links .link:hover,
+.social-links .link:focus {
+    color: #2196F3;
+}
+.hero-title{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 1.4;
+}
+.subject-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #212121;
+}
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #212121;
+    font-weight: 500;
+}
+.text {
+    font-size: 14px; 
+    line-height: 1.5;
+    color: var(--brand-color);
+}
+.hero-pointer{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.pointer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.item{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #212121;
+}
+.desk{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.link-footer{
+    font-size: 14px;
+    line-height: 1.8;
+    color: #FFFFFF;
+}
